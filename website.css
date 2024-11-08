@@ -1,0 +1,104 @@
+p {
+    font-family: Arial;
+    color: white;
+}
+
+a {
+    color: white;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+.welcome {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: Playfair Display;
+}
+
+.about-me {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(32, 32, 179);
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.crazy {
+    font-weight: bolder;
+}
+
+.name {
+    font-family: redacted script;
+    font-weight: bold;
+}
+
+.profile {
+    width: 500px;
+    object-fit: contain;
+    display: inline-block;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.pic {
+    display: inline-block;
+    width: 500px;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.links {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    background-color:rgb(32, 32, 179);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.band {
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+
+.fb {
+    vertical-align: top;
+}
+
+.LinkedIn {
+    vertical-align: top;
+}
+
+.Page2 {
+    vertical-align: top;
+    margin-left: 35px;
+}
+
+.links2 {
+    margin-top: 50px;
+}
+
+.comment {
+    font-family: Playfair Display;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form {
+    font-family: Playfair Display;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+}

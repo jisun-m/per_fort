@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <title>forms</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color:rgb(0, 0, 0);">
+    <h1 class="intro">
+        Leave a Comment!
+    </h1>
+    
+    <form class="form" action="/form.html">
+        <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+        <label for="sex">Sex:</label><br>
+            <select id="sex" name="sex">
+                <option value="S">Select your gender</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Others</option>
+            </select>
+            
+            <div class="bday">
+                <label for="bday">Birthday:</label><br>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email"><br>
+            </div>
+
+            <div>
+                <label for="email">Comments about my Portfolio:</label><br>
+                <input class="comment"  type="text" id="comments" name="comments"><br>
+            </div>
+
+            <div>
+                <input class="submit" type="submit" value="Submit Feedback">
+            </div>
+    </form>
+
+    <div class="web">
+        <a  class="website"  href="website.html" target="_blank">Go back to Portfolio</a>
+    </div>
+
+    <div class="pg2">
+        <a  class="pg2"  href="pg2.html" target="_blank">Go back to More about Me</a>
+    </div>
+
+</body>
